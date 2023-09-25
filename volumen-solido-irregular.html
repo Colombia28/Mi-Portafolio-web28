@@ -1,0 +1,87 @@
+<html lang="Es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/img/logoRicardo.jpg">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <title>Calculo de volumen solido</title>
+</head>
+<header> 
+    <h1 class="logo-ricardo"><a href=""><img src="./img/logoRicardo.jpg" alt="logocalculo"></a></h1>
+    <nav class="volumen-menu">
+        <ul class="lista-menu-volumen">
+            <li><a href="/sobre-mi.html">Sobre Mi</a></li>
+            <li><a href="">proyectos</a></li>
+            <li><a href="">Linkedin</a></li>
+            <li><a href="">Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+<body>
+<main>
+    <section class="informacion">
+        <div>
+            <div class="titulo-principal">
+                <h2>Solido Irregular</h2>
+            </div>
+            <div class="solido_irregular">
+                <img class="izquierda"><img src="./img/irregular_esfera-removebg-preview.png" alt="">
+                <aside>Un sólido irregular es un objeto tridimensional que no tiene una forma geométrica regular como un cubo o una esfera. Su forma no sigue un patrón simple y puede ser muy variada y compleja. Calcular propiedades como el volumen o el área de superficie de sólidos irregulares puede requerir métodos más avanzados debido a su falta de simetría o forma predecible.
+                    en este caso tomamos un cono de helado para responder a la pregunta problema que se nos plantea.
+                </aside>
+            </div>
+            <br>
+            <br>
+            <div class="pregunta">
+                <h3>¿si tuviera un sólido irregular, qué método utilizaría para calcular el volumen?</h3>
+            </div>
+        </div>
+
+    </section>
+    <section class="requerimiento">
+        <div class="requiere">
+            <h5>Entradas</h5>
+            <ul>
+                <li>Radio del cono (r_cono)</li>
+                <li>Altura del cono (h_cono)</li>
+                <li>Radio de la esfera (r_esfera)
+                </li>
+            </ul>
+            <h5>Salida</h5>
+            <ul><li>Volumen del sólido irregular (V_helado)
+            </li></ul>
+        </div>       
+    </section>
+    <section class="figuras_solidas">
+        <div class="contenedor">
+            <div class="esfera">
+                <img src="/img/esferaFormula-removebg-preview.png" alt="">
+                <input id="inp-esfera" placeholder="Radio esfera "  type="text">
+                <div id="resultadoEsfera"></div>
+
+            </div>
+            <div class="cono">
+                <img src="/img/cono_formula-removebg-preview.png" alt="">
+                <input id="inp-conoR" placeholder="Radio del cono" type="text" >
+                <input id="inp-conoH" placeholder="Altura del cono" type="text">
+                <div id="resultado"></div>
+
+            </div>
+        </div>
+    </section>
+    <div>
+        <div id="resultadoh"></div>
+    </div>
+    <div class="calculadora">
+        <button onclick="calcularVolumenCono()">Calcular Volumen</button>
+    </div>
+
+</main>
+<script type="text/javascript" src="/main.js"></script>
+</body>
+</html>

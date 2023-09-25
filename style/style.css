@@ -1,0 +1,126 @@
+body{
+    background-color: #F3F5FC ;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+header{
+    display: flex;
+    width: 100%;
+}
+.logo-ricardo{
+    padding-left: 10px;
+    text-align: center;
+    background-color: aqua;
+    box-shadow: #000;
+}
+.logo-ricardo img{
+    position: relative;
+    width: 90px;
+    height: 90px;
+    border-radius: 40px;
+    
+}
+
+.volumen-menu{
+    width: 100%;
+    text-align: center;
+    background-color: aquamarine;
+}
+
+
+nav a{
+    text-decoration:none;
+    color:inherit;
+    font-size:14px;
+    padding: 10px;
+} 
+nav ul li {
+    display:inline-block;
+    width:10%;
+    padding:10px;
+    text-align:center;
+    color:black;
+    border-radius: 5px;
+    text-transform: uppercase;
+    text-transform: capitalize;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+}
+nav li:hover{
+    background-color:#e9f906;
+    color:#ffffff;
+    border:1px solid #2fdaed;
+}
+.titulo-principal{
+    align-items: center;
+
+}
+
+
+.informacion {
+    display: flex;
+    align-items: center;
+}
+
+
+.solido_irregular {
+    margin: 30px 15px;
+    display: flex;
+    align-items: center; 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.titulo-principal{
+    display: flex;
+    align-items: center;
+}
+
+.titulo-principal h2 {
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    margin: 50px 20px;
+}
+
+.pregunta{
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    margin: 0 15px;
+}
+.figuras_solidas, .contenedor, .requerimiento{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.requiere{
+    font-family: 'Montserrat', sans-serif;
+    padding: 50px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+.requiere h5{
+    font-size: 25px;
+}
+.esfera, .cono{
+    width: 40%;
+    flex-wrap: nowrap;
+    padding: 10px;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.calculadora{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
