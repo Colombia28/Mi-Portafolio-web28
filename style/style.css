@@ -12,21 +12,15 @@ header{
 .logo-ricardo{
     padding-left: 10px;
     text-align: center;
-    background-color: aqua;
     box-shadow: #000;
 }
 .logo-ricardo img{
     position: relative;
-    width: 90px;
-    height: 90px;
-    border-radius: 40px;
-    
 }
 
 .volumen-menu{
     width: 100%;
     text-align: center;
-    background-color: aquamarine;
 }
 
 
